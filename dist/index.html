@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" />
+    <title>GenKredit</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <a class="logo" href="#">
+          <img
+            class="header-logo"
+            src="./images/header-top-logogk1.svg"
+            alt="logo"
+          />
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link toscroll" href="#pledge">Залог</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link toscroll" href="#about">О компании</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link toscroll" href="#calculator"
+                >Онлайн-калькулятор</a
+              >
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link toscroll" href="#why">Почему мы?</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link toscroll" href="#message">Скидка</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link toscroll" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="phone" href="tel:+83472589774">8 (347) 258-97-74</a>
+        <button data-modal class="call-btn" href="">Заказать звонок</button>
+      </div>
+
+      <div class="header__content">
+        <div class="container">
+          <h1 class="header__title title">Кредит просто!</h1>
+          <p class="header__text">
+            Повседневная практика показывает, что дальнейшее развитие различных
+            форм деятельности требуют от нас анализа системы обучения кадров,
+            соответствует насущным потребностям.<br /><br />
+            Разнообразный и богатый опыт постоянное
+            информационно-пропагандистское обеспечение нашей деятельности
+          </p>
+          <button data-modal class="header__button btn" href="">
+            Оставить заявку
+          </button>
+        </div>
+      </div>
+
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__bottom-inner">
+            <div class="header__bottom-content">
+              <img
+                class="header__bottom-logo logo1"
+                src="./images/header-bottom-time.svg"
+                alt=""
+              />
+              <p class="header__bottom-text">
+                Выдаем деньги<br />
+                за 2 дня
+              </p>
+            </div>
+            <div class="header__bottom-content">
+              <img
+                class="header__bottom-logo logo2"
+                src="./images/header-bottom-percent.svg"
+                alt=""
+              />
+              <p class="header__bottom-text">
+                Ставка от 3,5%<br />
+                в месяц
+              </p>
+            </div>
+            <div class="header__bottom-content">
+              <img
+                class="header__bottom-logo logo3"
+                src="./images/header-bottom-money.svg"
+                alt=""
+              />
+              <p class="header__bottom-text">
+                90%<br />
+                обратившихся<br />
+                получают деньги
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-btn">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <nav class="header-burger">
+        <div class="container">
+          <div class="burger-btn">
+            <img
+              class="burger-close"
+              src="./images/burger-close.svg"
+              alt=""
+              width="35px"
+              height="35px"
+            />
+          </div>
+          <div class="burger-list">
+            <ul>
+              <li><a href="#">Залог</a></li>
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Онлайн - калькулятор</a></li>
+              <li><a href="#">Почему мы?</a></li>
+              <li><a href="#">Скидка</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="pledge" id="pledge">
+      <div class="container">
+        <div class="pledge__inner">
+          <h2 class="pledge__title">Выберите вариант залога</h2>
+          <div class="pledge__content">
+            <div class="pledge__box">
+              <img
+                class="pledge__box-img"
+                src="./images/pledge-room1.jpg"
+                alt=""
+              />
+              <h2 class="pledge__box-text">Комната</h2>
+            </div>
+            <div class="pledge__box">
+              <img
+                class="pledge__box-img"
+                src="./images/pledge-room2.jpg"
+                alt=""
+              />
+              <h2 class="pledge__box-text">Квартира</h2>
+            </div>
+            <div class="pledge__box">
+              <img
+                class="pledge__box-img"
+                src="./images/pledge-room3.jpg"
+                alt=""
+              />
+              <h2 class="pledge__box-text">Жилой дом</h2>
+            </div>
+            <div class="pledge__box">
+              <img
+                class="pledge__box-img"
+                src="./images/pledge-room4.jpg"
+                alt=""
+              />
+              <h2 class="pledge__box-text">Коммерческая недвижимость</h2>
+            </div>
+          </div>
+          <button data-modal class="pledge__button button btn" href="">
+            Заказать услугу
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__info">
+            <h2 class="about__title">О компании</h2>
+            <div class="about__text">
+              Повседневная практика показывает, что дальнейшее развитие
+              различных форм деятельности требуют от нас анализа системы
+              обучения кадров, соответствует насущным потребностям.<br /><br />
+              Разнообразный и богатый опыт постоянное
+              информационно-пропагандистское обеспечение нашей деятельности в
+              значительной степени обуславливает создание модели развития. С
+              другой стороны укрепление и развитие структуры позволяет выполнять
+              важные задания по разработке новых предложений. Разнообразный и
+              богатый опыт постоянное информационно-пропагандистское обеспечение
+              нашей деятельности в значительной степени обуславливает создание
+              модели развития. С другой стороны укрепление и развитие структуры
+              позволяет выполнять важные задания по разработке новых
+              предложений.
+            </div>
+          </div>
+          <div class="about__img">
+            <img class="about__images" src="./images/about-pic1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="calculator" id="calculator">
+      <div class="container">
+        <div class="calculator__inner">
+          <div class="calculator__title">
+            <h2 class="calculator__title-first">Онлайн-калькулятор</h2>
+            <h2 class="calculator__title-second">
+              Расчитайте стоимость кредита за пару кликов
+            </h2>
+          </div>
+          <img class="calculator__line" src="./images/calculator-line.svg" alt="">
+          <div class="calculator__input">
+            <div class="calculator__input-price">
+              <h2 class="input-price-title">Рыночная стоимость недвижимости:</h2>
+              <input class="input-price-first" id="" type="number" value="0"></input><br>
+              <input class="input-price-second" id="" type="range" min="200000" max="25000000" value="0"></input>
+              <div class="input-price-text">
+                <p class="input-price-text1">200 000 руб.</p>
+                <p class="input-price-text2">25 000 000 руб.</p>
+              </div>
+            </div>
+            <div class="calculator__input-sum">
+              <h2 class="input-sum-title">Необходимая сумма:</h2>
+              <input class="input-sum-first" id="" type="number" value="0"></input><br>
+              <input class="input-sum-second" id="" type="range" min="100000" max="1000000" value="0"></input>
+              <div class="input-sum-text">
+                <p class="input-sum-text1">100 000 руб.</p>
+                <p class="input-sum-text2">1 000 000 руб.</p>
+              </div>
+            </div>
+            <div class="calculator__input-time">
+              <h2 class="input-time-title">Срок займа:</h2>
+              <input class="input-time-first" id="" type="number" value="0"></input><br>
+              <input class="input-time-second" id="" type="range" min="2" max="60" value="0"></input>
+              <div class="input-time-text">
+                <p class="input-time-text1">2 мес.</p>
+                <p class="input-time-text2">60 мес.</p>
+              </div>
+            </div>
+          </div>
+          <div class="calculator__result">
+            <div class="calculator__result-payment">
+              <h2 class="result-payment-title">Ежемесячный платеж</h2>
+              <input class="result-payment-input" id="" type="number" value="0" readonly></input>
+            </div>
+            <button data-modal class="result-payment-button button btn" href="">
+              Оставить заявку
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why" id="why">
+      <div class="container">
+        <div class="why__inner">
+          <div class="why__info">
+            <h2 class="why__title">Почему мы?</h2>
+            <div class="why__text">
+              Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют от нас анализа системы обучения кадров, соответствует насущным потребностям.<br><br>
+              Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание модели развития.<br><br>
+              С другой стороны укрепление и развитие структуры позволяет выполнять важные задания по разработке новых предложений.<br><br>
+              Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание модели развития.<br><br>
+              С другой стороны укрепление и развитие структуры позволяет выполнять важные задания по разработке новых предложений.
+            </div>
+          </div>
+          <div class="why__img">
+            <img class="why__images" src="./images/why-pic2.jpg" alt="" />
+            <button data-modal class="why__button button btn" href="">
+              Заказать звонок
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="message" id="message">
+      <div class="container">
+        <div class="message__inner">
+          <div class="message__img">
+            <img class="message__images" src="./images/message-pic3.jpg" alt="">
+          </div>
+          <div class="message__content">
+            <input
+              class="message__input-name"
+              type="text"
+              placeholder="Имя"
+            />
+            <input
+              class="message__input-number"
+              type="text"
+              placeholder="Телефон"
+            />
+            <input
+              class="message__input-email"
+              type="text"
+              placeholder="E-mail"
+            />
+            <textarea class="message__textarea-text" placeholder="Сообщение" name="" id="" cols="" rows="">Сообщение
+            </textarea>
+            <a class="message__button btn" href="#">
+              Отправить заявку
+            </a>
+            <p class="message__text">
+              Нажимая кнопку отправить вы соглашаетесь с условиями <span>политики конфиденциальности</span> обработки персональных данных
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <div class="contacts__inner">
+          <div class="contacts__info">
+            <h2 class="contacts__title">Контакты</h2>
+            <P class="contacts__number">8 (347) 258-97-74</P>
+            <p class="contacts__email">info@genkredit.ru</p>
+            <p class="contacts__address">50 лет СССР, д.30, к.5</p>
+            <P class="contacts__days">Режим работы: <br>
+              Пн-Пт 10:00-19:00</P>
+          </div>
+          <iframe class="ifram__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2302.642785730123!2d56.00680749440468!3d54.75108439573588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d9398d6679ff6b%3A0xe1f4bfa7b9e9842c!2z0YPQuy4gNTAg0LvQtdGCINCh0KHQodCgLCAzMC81LCDQo9GE0LAsINCg0LXRgdC_LiDQkdCw0YjQutC-0YDRgtC-0YHRgtCw0L0sIDQ1MDA1OQ!5e0!3m2!1sru!2sru!4v1636992558581!5m2!1sru!2sru" width="780" height="440" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+            <a class="footer__logo-first" href="#">
+              <img class="footer__logo1" src="./images/footer-logogk2.svg" alt="logo" />
+            </a>
+            <a class="footer__phone" href="tel:+83472589774">8 (347) 258-97-74</a>
+            <a class="footer__email" href="mailto:info@genkredit.ru">info@genkredit.ru</a>
+            <div class="footer__text-logo">
+              <p class="footer__text">Разработано в</p>
+              <a class="footer__logo-second" href="#">
+                <img class="footer__logo2" src="./images/footer-logogk3.svg" alt="logo" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--! modal -->
+
+    <div class="modal">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <form action="#">
+            <div data-close class="modal__close">
+              <img src="./images/modal-close.svg" alt="&times;" />
+            </div>
+            <div class="modal__title">Отправить заявку</div>
+            <input
+              required
+              placeholder="Имя"
+              name="name"
+              type="text"
+              class="modal__input"
+            />
+            <input
+              required
+              placeholder="Телефон"
+              name="phone"
+              type="phone"
+              class="modal__input"
+            />
+            <input
+              required
+              placeholder="E-mail"
+              name="email"
+              type="email"
+              class="modal__input"
+            />
+
+            <textarea
+              class="modal__input modal__textarea"
+              name="text"
+              id=""
+              cols="30"
+              rows="10"
+            >
+Сообщение
+            </textarea>
+            <button class="btn btn_dark btn_min">Отправить заявку</button>
+          </form>
+          <p class="license">
+            Нажимая кнопку отправить вы соглашаетесь с условиями
+            <span
+              >политики <br />
+              конфиденциальности</span
+            >
+            обработки персональных данных
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
